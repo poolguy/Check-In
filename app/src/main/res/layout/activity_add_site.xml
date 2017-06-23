@@ -7,4 +7,12 @@
     android:layout_height="match_parent"
     tools:context="check_in.controller.AddSiteActivity">
 
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+
 </android.support.constraint.ConstraintLayout>
